@@ -7,6 +7,13 @@ Scraping for items on Buff is not really time efficient as it requires at least 
 
 Now here are some shortcuts as I wanted to keep the design clean: 
 
-[CTRL + F] - To find an item in a table 
-[CTRL + G] - To filter by profit
-[CTRL + H] - To filter by buy price
+- **CTRL + F** : To find an item in a table 
+- **CTRL + G** : To filter by profit
+- **CTRL + H** : To filter by buy price
+
+# How to use
+1. Clone the repository on your system
+2. Make sure `python` is installed
+3. I recommend creating a new virtual enviroment `python -m venv your_venv`
+4. Install required libraries `pip install -r req.txt`
+5. Run `main.py` script 
