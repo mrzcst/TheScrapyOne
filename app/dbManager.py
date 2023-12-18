@@ -321,6 +321,8 @@ def delete_bought_item(item_id):
     conn = sqlite3.connect('app/data/TsoDB.db')
     cursor = conn.cursor()
 
+    item_id = (item_id,)
+
     query = '''
         DELETE FROM bought_items
         WHERE id=?;
@@ -334,6 +336,8 @@ def delete_bought_item(item_id):
 def delete_investment(item_id):
     conn = sqlite3.connect('app/data/TsoDB.db')
     cursor = conn.cursor()
+
+    item_id = (item_id,)
 
     query = '''
         DELETE FROM investments
